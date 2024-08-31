@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header><a href="#" class="logo">LET'S <span>GO</span></a>
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Information</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Cluture</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="h-right">
+            <a href="#">Follow us</a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="home-text">
+            <h5>Let's</h5>
+            <h1>Planning your<br>own travel</h1>
+            <P>Indonesia, a Southeast Aisn nation made up of thousands of
+                volcanic <br> islands, is home to hundreds of ethnic groups
+                speaking</P>
+                <a href="#" class="btn">Book a Trip</a>
+        </div>
+    </section>
+    <section class="feature">
+        <div class="feature-content">
+            <div class="row">
+                <div class="row-img">
+                    <img src="img/nap1.jpg">
+                </div>
+                <h4>Sky Tours</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="img/nap2.jpg">
+                </div>
+                <h4>Sky Tours</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="img/nap3.jpg">
+                </div>
+                <h4>Sky Tours</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="img/nap4.jpg">
+                </div>
+                <h4>Sky Tours</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="img/nap5.jpg">
+                </div>
+                <h4>Sky Tours</h4>
+            </div>
+        </div>
+    </section>
+    <section class="holiday">
+        <div class="holiday-img">
+            <img src="img/h1.png">
+        </div>
+        <div class="holiday-text">
+            <h5>East Nusa Tengga</h5>
+            <h2>Have u enjoyed Your Holiday</h2>
+            <p>you will be amazed if you take part in this sailing komodo 
+                island tour package.So it is also mandatory for you, besides
+                enjoying komodo tourism on komodo Island, you also have to taste
+                the marine tourism. The beautiful waters of komodo will make
+                you meet many travelers from other countries.</p>
+                <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+    <section class="tour">
+        <div class="center-text">
+            <h2>Popular Tours</h2>
+        </div>
+        <div class="tour-content"> 
+            <div class="box">
+                <img src="img/t1.jpg">
+                <h6>East Java</h6>
+                <h4>Mount Bromo</h4>
+             </div>
+             <div class="box">
+                <img src="img/t2.jpg">
+                <h6>East Java</h6>
+                <h4>Mount Bromo</h4>
+             </div>
+             <div class="box">
+                <img src="img/t3.jpg">
+                <h6>East Java</h6>
+                <h4>Mount Bromo</h4>
+             </div>
+        </div>
+        <div class="center-btn">
+            <a href="#" class="btn">See Tours</a>
+
+        </div>
+    </section>
+    <section class="cluture">
+        <div class="cluture-text">
+            <h5>INDONESIAN CULTURE</h5>
+            <h2>Our culutre here is very friendly to pepole</h2>
+            <p>known for his politeness, manners and gentleness.This
+            becomes a chracterstic when they mingle with other tribes and
+            become basic traits that are passed down by their ancestors. </p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+        <div class="cluture-img">
+            <img src="img/c1.png">
+        </div>
+    </section>
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <div class="newsletter-text">
+                <h2>Ready to explore?</h2> 
+                <p>Let's go on vacation, make your day</p>
+            </div>
+            <form action="">
+                 <input type="email" placeholder="Enter your email..." required>
+                 <input type="submit" value="Ger started" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+      <script src="js/script.js"></script>   
+</body>
+</html>
